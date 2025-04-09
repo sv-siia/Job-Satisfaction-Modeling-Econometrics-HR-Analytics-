@@ -1,0 +1,131 @@
+
+==================================================================================
+                                                    Dependent variable:           
+                                         -----------------------------------------
+                                                      JobSatisfaction             
+                                           ordered    ordered   ordered   ordered 
+                                          logistic    probit   logistic   probit  
+                                           General    General    Final     Final  
+                                             (1)        (2)       (3)       (4)   
+----------------------------------------------------------------------------------
+Age                                         0.032      0.022                      
+                                           (0.068)    (0.041)                     
+                                                                                  
+as.factor(Attrition)1                     -0.749***  -0.451***  -0.659*** -0.397***
+                                           (0.148)    (0.089)   (0.137)   (0.082)                                    
+                                                                                  
+as.factor(BusinessTravel)1                 -0.029     -0.026                      
+                                           (0.156)    (0.096)                     
+                                                                                  
+as.factor(BusinessTravel)2                  0.197      0.102                      
+                                           (0.185)    (0.112)                     
+                                                                                  
+DailyRate                                   0.048      0.028                      
+                                           (0.048)    (0.029)                     
+                                                                                  
+as.factor(Department)Research Development  -0.191    -0.144            
+                                           (0.603)    (0.365)                     
+                                                                                  
+as.factor(Department)Sales                 -0.036     -0.005                      
+                                           (0.617)    (0.375)                     
+                                                                                  
+DistanceFromHome                            0.001     0.0004                      
+                                           (0.006)    (0.004)                     
+                                                                                  
+Education                                  -0.015     -0.008                      
+                                           (0.048)    (0.029)                     
+                                                                                  
+EnvironmentSatisfaction                    -0.047     -0.027                      
+                                           (0.044)    (0.026)                     
+                                                                                  
+as.factor(Gender)1                         -0.154     -0.094                      
+                                           (0.098)    (0.059)                     
+                                                                                  
+HourlyRate                                -0.131***  -0.078*** -0.123*** -0.075***
+                                           (0.048)    (0.029)   (0.047)   (0.028) 
+                                                                                  
+JobInvolvement                             -0.087     -0.054                      
+                                           (0.068)    (0.041)                     
+                                                                                  
+JobLevel                                    0.062      0.041                      
+                                           (0.161)    (0.096)                     
+                                                                                  
+as.factor(JobRole)Human Resources          -0.430     -0.264                      
+                                           (0.680)    (0.412)                     
+                                                                                  
+as.factor(JobRole)Laboratory Technician    -0.069     -0.031                      
+                                           (0.226)    (0.135)                     
+                                                                                  
+as.factor(JobRole)Manager                  -0.038     -0.047                      
+                                           (0.386)    (0.229)                     
+                                                                                  
+as.factor(JobRole)Manufacturing Director   -0.163     -0.086                      
+                                           (0.219)    (0.132)                     
+                                                                                  
+as.factor(JobRole)Research Director        -0.050     -0.028                      
+                                           (0.339)    (0.203)                     
+                                                                                  
+as.factor(JobRole)Research Scientist       -0.017      0.001                      
+                                           (0.223)    (0.134)                     
+                                                                                  
+as.factor(JobRole)Sales Executive          -0.126     -0.119                      
+                                           (0.438)    (0.261)                     
+                                                                                  
+as.factor(JobRole)Sales Representative     -0.215     -0.136                      
+                                           (0.484)    (0.291)                     
+                                                                                  
+as.factor(MaritalStatus)Married             0.122      0.069                      
+                                           (0.130)    (0.077)                     
+                                                                                  
+as.factor(MaritalStatus)Single             0.422**    0.254**   0.175*    0.106*  
+                                           (0.177)    (0.106)   (0.103)   (0.062)                                       
+                                                                                  
+MonthlyIncome                              -0.052     -0.033                      
+                                           (0.201)    (0.120)                     
+                                                                                  
+MonthlyRate                                0.0002     -0.002                      
+                                           (0.047)    (0.029)                     
+                                                                                  
+NumCompaniesWorked                         -0.027     -0.017   -0.038**  -0.023** 
+                                           (0.021)    (0.013)   (0.019)   (0.011) 
+                                                                                  
+as.factor(OverTime)1                       0.271**    0.153**   0.244**   0.137** 
+                                           (0.113)    (0.067)   (0.110)   (0.065)                                        
+                                                                                  
+PercentSalaryHike                           0.017      0.010                      
+                                           (0.020)    (0.012)                     
+                                                                                  
+PerformanceRating                          -0.109     -0.058                      
+                                           (0.208)    (0.126)                     
+                                                                                  
+RelationshipSatisfaction                   -0.034     -0.020                      
+                                           (0.044)    (0.027)                     
+                                                                                  
+StockOptionLevel                            0.120      0.075                      
+                                           (0.076)    (0.046)                     
+                                                                                  
+TotalWorkingYears                          -0.012     -0.007                      
+                                           (0.014)    (0.008)                     
+                                                                                  
+TrainingTimesLastYear                      -0.021     -0.012                      
+                                           (0.037)    (0.022)                     
+                                                                                  
+WorkLifeBalance                            -0.080     -0.049                      
+                                           (0.068)    (0.041)                     
+                                                                                  
+YearsAtCompany                              0.010      0.009                      
+                                           (0.017)    (0.010)                     
+                                                                                  
+YearsInCurrentRole                          0.008      0.004                      
+                                           (0.022)    (0.013)                     
+                                                                                  
+YearsSinceLastPromotion                    -0.003     -0.002                      
+                                           (0.019)    (0.012)                      
+                                                                                  
+YearsWithCurrManager                       -0.035     -0.024*   -0.024*   -0.015* 
+                                           (0.022)    (0.013)   (0.013)   (0.008) 
+                                                                                  
+----------------------------------------------------------------------------------
+Observations                                1,470      1,470     1,470     1,470  
+==================================================================================
+Note:                                                  *p<0.1; **p<0.05; ***p<0.01
